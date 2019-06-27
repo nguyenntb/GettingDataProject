@@ -17,73 +17,27 @@ Code book
 - Assign the descriptive names to each activity class.
  
 ## Variables in the tidy data ('tidy_data.txt')
-There are 68 variables in the data set
+There are 68 variables in the dat set
 - "subject" (factor): identifier of the subject who carries out the experiment.
 - "activity" (factor): the activity class            
-- "tBodyAcc-mean()-X" (numeric):          
-- "tBodyAcc-mean()-Y" (numeric):         
-- "tBodyAcc-mean()-Z" (numeric):           
-- "tBodyAcc-std()-X" (numeric):           
-- "tBodyAcc-std()-Y" (numeric):           
-- "tBodyAcc-std()-Z" (numeric):          
-- "tGravityAcc-mean()-X" (numeric):       
-- "tGravityAcc-mean()-Y" (numeric):       
-- "tGravityAcc-mean()-Z" (numeric):       
-- "tGravityAcc-std()-X" (numeric):       
-- "tGravityAcc-std()-Y" (numeric):        
-- "tGravityAcc-std()-Z" (numeric):       
-- "tBodyAccJerk-mean()-X" (numeric):      
-- "tBodyAccJerk-mean()-Y" (numeric):     
-- "tBodyAccJerk-mean()-Z" (numeric):      
-- "tBodyAccJerk-std()-X" (numeric):      
-- "tBodyAccJerk-std()-Y" (numeric):       
-- "tBodyAccJerk-std()-Z" (numeric):      
-- "tBodyGyro-mean()-X" (numeric):         
-- "tBodyGyro-mean()-Y" (numeric):        
-- "tBodyGyro-mean()-Z" (numeric):        
-- "tBodyGyro-std()-X" (numeric):         
-- "tBodyGyro-std()-Y" (numeric):          
-- "tBodyGyro-std()-Z" (numeric):         
-- "tBodyGyroJerk-mean()-X" (numeric):      
-- "tBodyGyroJerk-mean()-Y" (numeric): 
-- "tBodyGyroJerk-mean()-Z" (numeric):     
-- "tBodyGyroJerk-std()-X" (numeric):     
-- "tBodyGyroJerk-std()-Y" (numeric):      
-- "tBodyGyroJerk-std()-Z" (numeric):     
-- "tBodyAccMag-mean()" (numeric):         
-- "tBodyAccMag-std()" (numeric):         
-- "tGravityAccMag-mean()" (numeric):      
-- "tGravityAccMag-std()" (numeric):      
-- "tBodyAccJerkMag-mean()" (numeric):     
-- "tBodyAccJerkMag-std()" (numeric):     
-- "tBodyGyroMag-mean()" (numeric):        
-- "tBodyGyroMag-std()" (numeric):        
-- "tBodyGyroJerkMag-mean()" (numeric):    
-- "tBodyGyroJerkMag-std()" (numeric):    
-- "fBodyAcc-mean()-X" (numeric):          
-- "fBodyAcc-mean()-Y" (numeric):         
-- "fBodyAcc-mean()-Z" (numeric):          
-- "fBodyAcc-std()-X" (numeric):          
-- "fBodyAcc-std()-Y" (numeric):           
-- "fBodyAcc-std()-Z" (numeric):          
-- "fBodyAccJerk-mean()-X" (numeric):      
-- "fBodyAccJerk-mean()-Y" (numeric):     
-- "fBodyAccJerk-mean()-Z" (numeric):      
-- "fBodyAccJerk-std()-X" (numeric):     
-- "fBodyAccJerk-std()-Y" (numeric):       
-- "fBodyAccJerk-std()-Z" (numeric):      
-- "fBodyGyro-mean()-X" (numeric):          
-- "fBodyGyro-mean()-Y" (numeric):        
-- "fBodyGyro-mean()-Z" (numeric):         
-- "fBodyGyro-std()-X" (numeric):         
-- "fBodyGyro-std()-Y" (numeric):          
-- "fBodyGyro-std()-Z" (numeric):         
-- "fBodyAccMag-mean()" (numeric):         
-- "fBodyAccMag-std()" (numeric):         
-- "fBodyBodyAccJerkMag-mean()" (numeric):  
-- "fBodyBodyAccJerkMag-std()" (numeric): 
-- "fBodyBodyGyroMag-mean()" (numeric):
-- "fBodyBodyGyroMag-std()" (numeric):    
-- "fBodyBodyGyroJerkMag-mean()" (numeric):
-- "fBodyBodyGyroJerkMag-std()" (numeric):
- 
+- "tBodyAcc-mean()-XYZ"/"fBodyAcc-mean()-XYZ" (numeric): Average of the mean values of the time/frequency domain XYZ-axis body acceleration signals                 
+- "tBodyAcc-std()-XYZ"/"fBodyAcc-std()-XYZ" (numeric): Average of the standard deviations of the time/frequency domain XYZ-axis body acceleration signals                
+- "tGravityAcc-mean()-XYZ" (numeric):  Average of the mean values of the time/frequency domain XYZ-axis gravity acceleration signals   
+- "tGravityAcc-std()-XYZ" (numeric): Average of the standard deviations of the time/frequency domain XYZ-axis gravity acceleration signals           
+- "tBodyAccJerk-mean()-XYZ"/"fBodyAccJerk-mean()-XYZ" (numeric): Average of the mean values of the time/frequency domain XYZ-axis body acceleration Jerk signals           
+- "tBodyAccJerk-std()-XYZ"/"fBodyAccJerk-std()-XYZ" (numeric): Average of the standard deviations of the time/frequency domain XYZ-axis body acceleration Jerk signals       
+- "tBodyGyro-mean()-XYZ"/"fBodyGyro-mean()-XYZ" (numeric): Average of the mean values of the time/frequency domain XYZ-axis body Angular velocity signals               
+- "tBodyGyro-std()-XYZ"/"fBodyGyro-std()-XYZ" (numeric): Average of the standard deviations of the time/frequency domain XYZ-axis body Angular velocity signals                
+- "tBodyGyroJerk-mean()-XYZ" (numeric): Average of the mean values of the time domain XYZ-axis body Angular velocity Jerk signals       
+- "tBodyGyroJerk-std()-XYZ" (numeric): Average of the standard deviations of the time domain XYZ-axis body Angular velocity Jerk signals 
+- "tBodyAccMag-mean()"/"fBodyAccMag-mean()" (numeric): Average of the mean values of the magnitude of the time/frequency domain body acceleration signals        
+- "tBodyAccMag-std()"/"fBodyAccMag-std()" (numeric): Average of the standard deviations of the magnitude of the time/frequency domain body acceleration signals        
+- "tGravityAccMag-mean()" (numeric): Average of the mean values of the magnitude of the time domain gravity acceleration signals     
+- "tGravityAccMag-std()" (numeric): Average of the standard deviations of the magnitude of the time domain gravity acceleration signals 
+- "tBodyAccJerkMag-mean()"/"fBodyBodyAccJerkMag-mean()" (numeric): Average of the mean values of the magnitude of the time/frequency domain body acceleration Jerk signals
+- "tBodyAccJerkMag-std()"/"fBodyBodyAccJerkMag-std()" (numeric): Average of the standard deviations of the magnitude of the time/frequency domain body acceleration Jerk signals   
+- "tBodyGyroMag-mean()"/"fBodyBodyGyroMag-mean()" (numeric): Average of the mean values of the magnitude of the time/frequency domain body Angular velocity signals       
+- "tBodyGyroMag-std()"/"fBodyBodyGyroMag-std()" (numeric): Average of the standard deviations of the magnitude of the time/frequency domain body Angular velocity signals        
+- "tBodyGyroJerkMag-mean()"/"fBodyBodyGyroJerkMag-mean()" (numeric): Average of the mean values of the magnitude of the time/frequency domain body Angular velocity Jerk signals    
+- "tBodyGyroJerkMag-std()"/"fBodyBodyGyroJerkMag-std()" (numeric): Average of the standard deviations of the magnitude of the time/frequency domain body Angular velocity Jerk signals    
+       
